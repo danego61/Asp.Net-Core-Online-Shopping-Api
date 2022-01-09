@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineShopping.Core\OnlineShopping.Core.csproj" />
+    <ProjectReference Include="..\OnlineShopping.DataAccess\OnlineShopping.DataAccess.csproj" />
+    <ProjectReference Include="..\OnlineShopping.Entities\OnlineShopping.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="PostSharp" Version="6.9.9" />
+  </ItemGroup>
+
+</Project>

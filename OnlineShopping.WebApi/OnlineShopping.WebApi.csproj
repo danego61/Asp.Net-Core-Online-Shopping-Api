@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	  <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineShopping.Business\OnlineShopping.Business.csproj" />
+    <ProjectReference Include="..\OnlineShopping.Core\OnlineShopping.Core.csproj" />
+    <ProjectReference Include="..\OnlineShopping.Entities\OnlineShopping.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
